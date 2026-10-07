@@ -1,0 +1,23 @@
+export const site = {
+  name: 'Riad Anata',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.riad-anata.com',
+  address: {
+    street: 'Derb El Hamia 16b',
+    city: 'Fès',
+    country: 'Maroc',
+    lat: 34.0625,
+    lng: -4.9785,
+  },
+  phone: '+212 535 741 537',
+  phoneHref: '+212535741537',
+  whatsapp: '+212 646 511 676',
+  whatsappHref: 'https://wa.me/212646511676',
+  email: 'info@riad-anata.com',
+  booking: 'https://direct-book.com/properties/riadanatadirect',
+  maps: 'https://maps.app.goo.gl/hg4vFsM73GhZCZ479',
+  instagram: 'https://www.instagram.com/riad.anata/',
+  facebook: 'https://www.facebook.com/riad.anata.fes',
+  rooms: 5,
+  maxGuests: 11,
+  priceFrom: 108,
+} as const;

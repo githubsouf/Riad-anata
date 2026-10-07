@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# public/media/ is NOT ignored on purpose: once `npm run sync:media` has run,
+# those files are the site's images. Ignoring them means the host builds
+# without any photos.
